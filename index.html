@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    	<link rel="stylesheet" href="chocomilk.css"/>
+        <script src="chocomilk.js"></script>
+    	<title>ChocoMilk</title>
+    </head>
+    <body bgcolor="#F0E0D6">
+        <center>
+        <p>
+            <font size="72" color="#800000">
+                Ch<script>write_document_item('t1',true)</script>c<script>write_document_item('t2',true)</script>Milk
+            </font>
+        </p>
+        <br/>
+        <div style="width:500px;heigth:500px;border-radius:50%;border:5px solid red">
+            <div style="width:490px;heigth:490px;border-radius:50%;border:5px solid white">
+                <div style="width:480px;heigth:480px;border-radius:50%;border:5px solid red">
+                    <div style="background-color:#fff;border-radius:50%;padding-top:5px">
+                        <script>
+write_document_checkboxes()
+if(document.location.hash)
+    set_checked_bits(read_bits_from_base64(document.location.hash))
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <button onclick="clear_bits(1)">CHOCO</button>
+        <button onclick="clear_bits(0)">MILK</button>
+        <center>
+    </body>
+</html>
